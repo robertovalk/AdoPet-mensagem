@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/reset.css">
+    <title>Adopet - Mensagem</title>
+</head>
+<body>
+    <header class="cabecalho">
+
+        <div class="cabecalho-mob">
+            <nav class="cabecalho__nav">
+
+                <a href="#">
+                    <img src="./images/Casa.svg">
+                </a>
+
+                <a href="#">    
+                    <img src="./images/Mensagens.svg" alt="">
+                </a>
+            </nav>
+
+            <div>
+                <img class="user-mob" src="./images/Usuário.svg"> 
+            </div>
+        </div>
+        
+        <div class="header-dsktp">
+
+            <img class="logo-dsktp" src="./images/Logo.svg">
+
+            <nav class="cabecalho__nav-dsktp">
+
+                <a href="#">
+                    <img src="./images/Casa.svg">
+                </a>
+    
+                <a href="#">    
+                    <img src="./images/Mensagens.svg" alt="">
+                </a>
+            </nav>
+
+            <img class="user-dsktp" src="./images/Usuário.svg">
+        </div>
+        
+        <div class="cp-title-subtitle">
+            <p class="cp-subtitle">Envie uma mensagem para a pessoa ou instituição que está cuidando do animal:</p>
+        </div>
+    </header>
+
+    <main class="conteudo-principal">
+        <section class="cp-forms">
+            <form class="forms">
+
+                <label class="forms__label">Nome</label>
+                <input class="forms__input" type="text" required placeholder="Insira seu nome completo">
+
+                <label class="forms__label" class="labelPadrao">Telefone</label>
+                <input class="forms__input" type="tel" required placeholder="Insira seu telefone e/ou whatsapp">
+
+                <label class="forms__label">Nome do animal</label>
+                <input class="forms__input input-bg input-senhas" type="text" required placeholder="Por qual animal você se interessou?">
+
+                <label class="forms__label" class="labelPadrao">Mensagem</label>
+                <textarea class="forms__input textarea input-senhas" rows="10" cols="10" type="password" required placeholder="Escreva sua mensagem"></textarea>
+
+                <div class="frm-input">
+                    <input class=" forms__input submit" type="submit" value="Enviar">
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <p class="rdp-p">2023 - Desenvolvido por Roberto Falcão</p>
+    </footer>
+</body>

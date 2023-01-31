@@ -1,0 +1,97 @@
+.cabecalho {
+    width: 100%;
+    height: 280px;
+    background: url('../images/Forma\ 1.svg') 0 0 no-repeat;
+
+}
+
+.cabecalho-mob {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 2em 4em 2em;
+}
+
+.cabecalho__nav {
+    display: flex;
+    align-items: baseline;
+    gap: 3em;
+}
+
+.cp-logo-img {
+    width: 140px;
+}
+
+.cp-title-subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.8em;
+}
+
+.cp-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 3em;
+    padding: 0em 3em 0em 3em;
+    color: var(--cor-de-fundo-inicial);
+}
+
+
+.logo-dsktp, .header-dsktp {
+   display: none;
+}
+
+@media screen and (min-width: 768px) {
+
+    .cabecalho-mob {
+        display: none;
+    }
+
+    .user-dsktp {
+        position: absolute;
+        right: 3em;
+    }
+
+    .logo-dsktp {
+        display: block;
+        width: 128px;
+        margin-right: 2em;
+    }
+
+    .header-dsktp {
+        display: flex;
+        align-items: center;
+        padding: 2em 0em 7em 2em;
+    }
+
+    .cabecalho__nav-dsktp {
+        display: flex;
+        align-items: baseline;
+        gap: 2em;
+    }
+
+    .cabecalho__nav {
+        display: none;
+    }
+
+    .cp-logo-img {
+        width: 300px;
+    }
+
+    .cp-subtitle {
+        font-size: 18px;
+        margin: 0;
+        padding: 1em 7em;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .cp-subtitle {
+        padding: 1em 26em;
+    }
+    
+}
+
